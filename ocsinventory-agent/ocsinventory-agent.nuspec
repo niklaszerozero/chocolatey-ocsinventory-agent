@@ -3,14 +3,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
-    <id>ocsinventory-agent.install</id>
+    <id>ocsinventory-agent</id>
     <version>2.11.0.1</version>
     <packageSourceUrl>https://github.com/niklaszerozero/chocolatey-ocsinventory-agent</packageSourceUrl>
     <owners>Niklas Vlach</owners>
     <!-- ============================== -->
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
-    <title>OCS Inventory NG Agent (Install)</title>
+    <title>OCS Inventory NG Agent</title>
     <authors>Pascal Danek, Emmanuel Guillory, Pierre Lemmet, Didier Liroulet, Gilles Dubois, Charlene Auger</authors>
     <projectUrl>https://github.com/OCSInventory-NG/WindowsAgent</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/niklaszerozero/chocolatey-ocsinventory-agent/refs/heads/main/ocsinventory-agent/ocsinventory-agent.png</iconUrl>
