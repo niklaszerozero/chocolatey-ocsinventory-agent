@@ -14,7 +14,7 @@
     <authors>Pascal Danek, Emmanuel Guillory, Pierre Lemmet, Didier Liroulet, Gilles Dubois, Charlene Auger</authors>
     <projectUrl>https://github.com/OCSInventory-NG/WindowsAgent</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/niklaszerozero/chocolatey-ocsinventory-agent/refs/heads/main/ocsinventory-agent/ocsinventory-agent.png</iconUrl>
-    <copyright>2025</copyright>
+    <copyright>Copyright (C) 2010 OCS Inventory NG Team. All rights reserved.</copyright>
     <licenseUrl>https://github.com/OCSInventory-NG/WindowsAgent/blob/master/LICENSE.TXT</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/OCSInventory-NG/WindowsAgent/tree/master</projectSourceUrl>
