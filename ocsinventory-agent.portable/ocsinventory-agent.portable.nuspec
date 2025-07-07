@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>ocsinventory-agent.portable</id>
+    <version>2.11.0.1</version>
+    <packageSourceUrl>https://github.com/niklaszerozero/chocolatey-ocsinventory-agent</packageSourceUrl>
+    <owners>Niklas Vlach</owners>
+    <!-- ============================== -->
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>OCS Inventory NG Agent (Portable)</title>
+    <authors>Pascal Danek, Emmanuel Guillory, Pierre Lemmet, Didier Liroulet, Gilles Dubois, Charlene Auger</authors>
+    <projectUrl>https://github.com/OCSInventory-NG/WindowsAgent</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/niklaszerozero/chocolatey-ocsinventory-agent/refs/heads/main/ocsinventory-agent.portable/ocsinventory-agent.portable.png</iconUrl>
+    <copyright>2025</copyright>
+    <licenseUrl>https://github.com/OCSInventory-NG/WindowsAgent/blob/master/LICENSE.TXT</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/OCSInventory-NG/WindowsAgent/tree/master</projectSourceUrl>
+    <docsUrl>https://wiki.ocsinventory-ng.org</docsUrl>
+    <bugTrackerUrl>https://github.com/OCSInventory-NG/WindowsAgent/issues</bugTrackerUrl>
+    <tags>ocsinventory-agent</tags>
+    <summary>The OCS Inventory NG Agent for Windows allows PCs to be inventoried by the OCS Inventory NG server. It collects detailed information about hardware, installed software, network interfaces, and system configuration. In addition to inventory management, the agent supports software deployment, enabling remote installation of packages via the OCS server.</summary>
+    <description>The OCS Inventory NG Agent for Windows allows PCs to be inventoried by the OCS Inventory NG server. It collects detailed information about hardware, installed software, network interfaces, and system configuration. In addition to inventory management, the agent supports software deployment, enabling remote installation of packages via the OCS server.</description>
+    <releaseNotes>
+    The OCS Inventory team is pleased to announce that Windows agent have been released in 2.11.0.1 version
+
+    Changes in this version :
+
+        - Upgrade vcruntime140_1.dll
+
+    Regards,
+    OCS Inventory Team
+    </releaseNotes>
+    <!-- =============================== -->
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

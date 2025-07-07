@@ -1,0 +1,1 @@
+﻿#Install-VirtualPackage 'ocsinventory-agent.portable' 'ocsinventory-agent.install'
